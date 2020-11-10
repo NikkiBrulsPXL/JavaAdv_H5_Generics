@@ -1,6 +1,8 @@
 package be.pxl.ja.oefening1;
 
-public class WorkingPlace<T> {
+
+
+public class WorkingPlace<T extends Motorized> {
 
 	private T thingToFix;
 	private int numberOfThingsFixed = 0;
